@@ -1,0 +1,13 @@
+#! usr/bin/bash
+
+echo "Enter array pressing space after each element:"
+read -a val
+i=0
+sum=0
+
+while (test ${val[$i]})
+do
+sum=$( expr $sum + ${val[$i]} )
+done
+
+echo $sum
