@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+class Main {
+	public static void main(String[] args)throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int col=sc.nextInt();
+		while(col!=0)
+		{
+			String msg=sc.next();
+			int row=msg.length()/col;
+			char encmsg[][]=new char[row][col];
+			char newmsg[]=new char[msg.length()];
+			for(int i=0;i<row;i++)
+			{
+				for(int j=0;j<col;j++)
+				{
+					if(i%2==0)
+					{
+						encmsg[i][j]=msg.charAt(i*col+j);
+					}
+					else
+					{
+						encmsg[i][j]=msg.charAt(i*col+col-j-1);
+					}	
+				}
+				//System.out.println();
+			}
+			int k=0;
+			for(int i=0;i<col;i++)
+			{
+				for(int j=0;j<row;j++)
+				{
+					newmsg[k]=encmsg[j][i];
+					k++;
+				}
+			}
+			for(k=0;k<msg.length();k++)
+				System.out.print(newmsg[k]);
+			System.out.println();
+			
+			col=sc.nextInt();
+		}
+		sc.close();
+	}
+}
