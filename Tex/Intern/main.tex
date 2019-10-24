@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1, 21 November 2016) written by
+% LianTze Lim (liantze@gmail.com), based on the 
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options. 
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3e0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{SABESAN SATHANANTHAN}
+  \tagline{Computer Science \& Engineering Student}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{2.5cm}{me}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{sabesan.16@cse.mrt.ac.lk}
+%   \phone{000-00-0000}
+  \mailaddress{Kobi Illam, Pannagam South, Chulipuram}
+  \location{Jaffna, Sri Lanka}
+  \phone{+94719786867}
+  \homepage{medium.com/@sabesan96}
+  \github{github.com/Sabesan96}
+  \linkedin{linkedin.com/in/sabesan96}
+%   \github{} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want. Extend the right margin by 8cm (=6.8cm marginparwidth + 1.2cm marginparsep)
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Education}
+
+\cvevent{BSc Eng Hons }{Department of Computer Science and Engineering, University of Moratuwa}{Oct 2016 -- Ongoing}{}
+\divider
+
+\cvevent{G.C.E Advanced Level Examination}{J/ Jaffna Hindu College}{May 2013 -- Sep 2015}{}
+\begin{itemize}
+\item All ‘A’ passes for Mathematics, Physics and Chemistry
+\item District Rank : 28
+\item Z - score : 2.3163
+\end{itemize}
+
+\divider
+
+\cvevent{G.C.E. Ordinary Level Examination}{J/ Jaffna Hindu College}{Jan 2011 -- Dec 2012}{}
+\begin{itemize}
+\item "A” passes for Mathematics, Tamil, Hinduism, Science, Appreciation of Tamil Literary Texts, Business studies, History and Information technology and "B" Pass for English
+\end{itemize}
+
+
+% \divider
+\cvsection{ACHIEVEMENTS}
+
+\cvevent{}{Winner: hackX}{Sep 2018}{}
+\begin{itemize}
+\item Inter-university hackathon organized by University of Kelaniya.
+\item Member of Team Codezillas
+\end{itemize}
+\divider
+
+\cvevent{}{Asian Finalist IEEE SS12}{Sep 2018}{}
+\begin{itemize}
+\item Representing University of Moratuwa - out of 400+ participants in 100+ universities in Asia.
+\end{itemize}
+\divider
+
+\cvevent{}{Finalist Yarl IT Hub}{Nov 2018}{}
+\begin{itemize}
+\item  Member of Team Codezillas
+\end{itemize}
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+\clearpage
+
+\end{document}
