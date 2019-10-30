@@ -2,28 +2,26 @@
 Here, You can start your first PR from here for 2019 hacktoberfest
 Make your first PR! ~ A beginner friendly repository made specifically for open source beginners.
 
-What is Hacktoberfest?
+**What is Hacktoberfest?**
 Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easily win a T-Shirt just by making 4 pull requests in the month of October to any open source projects on Github.
 
-Steps to follow scroll
+**Steps to follow**
 1. Register for Hacktoberfest
 https://hacktoberfest.digitalocean.com/
-2. Fork it fork_and_knife
-You can get your own fork/copy of Hacktoberfest by using the Fork button or clicking this.
+2. Fork it :fork_and_knife:
+You can get your own fork/copy of Hacktoberfest by using the Fork button.
 
-Fork Button
+3. Add a Program in any Language you like :rabbit2:
+Once you have forked the repo, add your program in the language folder in main branch. If there is no language folder, make one, then add into it. You can take a look at the Programming Language List in Wikipedia to create a new one for Hacktoberfest!
 
-3. Add a Program in any Language you like rabbit2
-Once you have forked the repo, add your progam in the language folder in main branch, if there is no language folder, make one, then add into it. You can take a look to the Programming Language List in Wikipedia to create a new one for Hacktoberfest!
-
-4. Ready, Steady, Go... turtle rabbit2
+4. Ready, Steady, Go... :turtle: :rabbit2:
 Once you have completed these steps, you are ready to start contributing by checking our Help Wanted issues and creating pull requests.
 
-5. Give this Project a Star star
-If you liked working on this repo, please share this repo as much as you can and star this repo to help as many people in opensource as you can.
+5. Give this Project a Star :star:
+If you liked working on this repo, please share this repo as much as you can and star this repo to help as many people in open source as you can.
 
 
-Steps to Make Changes and contribute using GIT!
+**Steps to Make Changes and contribute using GIT!**
 
 
 To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
