@@ -1,5 +1,5 @@
-# Hacktoberfest2019
-Here, You can start your first PR from here for 2019 hacktoberfest
+# Hacktoberfest2020
+Here, You can start your first PR from here for 2020 hacktoberfest
 Make your first PR! ~ A beginner friendly repository made specifically for open source beginners.
 
 **What is Hacktoberfest?**
@@ -91,7 +91,7 @@ Once you have configured a remote that references the upstream and original repo
 
 
 To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
-
+<h2> Don't forget to star the repo </h2>
 
 // git fetch upstream //
 Switch to the local master branch of our repository:
